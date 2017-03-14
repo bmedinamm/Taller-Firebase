@@ -1,0 +1,168 @@
+
+::-webkit-scrollbar {
+      width: 0px;
+}
+/*Inicio de estilos para la vista Principal*/
+.txt-fecha{
+    font-size: 11px;
+}
+
+.input-top-5{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mensaje-importante{
+	background-color: rgba(255,241,0,.15) !important;
+}
+
+.fecha{
+	margin-top: -12px;
+    font-size: 11px;
+    color: #999;
+}
+
+.correo{
+	font-size: 13px;
+    margin-top: -10px !important;
+    position: absolute;
+}
+
+.top-10{
+	margin-top: 10px
+}
+
+.franja-oscura{
+    background: rgb(61, 61, 61);
+    margin-top: -15px;
+}
+
+.img-perfil-usuario{
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.p-nombre-usuario{
+    color: #fff;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.p-correo-usuario{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 33px;
+    right: 10px;
+    position: absolute;
+}
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.lblSubirImagen{
+    font-weight: normal;
+    color: #1914ef;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-left: 25px; 
+    font-size: 11px;
+    color: #6bc1f5 !important;
+}
+.lblSubirImagen:hover{
+    text-decoration: underline;
+}
+
+.modal-cont{
+	width: 126%;
+	right: 10%; 
+	margin-top: 15%;
+}
+
+.row-options{
+	margin-top: 51px;
+	margin-left: 55px;
+}
+
+.row-buttons{
+	padding-left: 210px;
+	margin-top: 10px;
+}
+.table-information{
+	margin-top: 15px; 
+	margin-bottom: -15px;
+}
+
+.btn-editar-inf{
+	margin-left: 52%;
+}
+
+.background-left{
+	background-color: #f5f5f5;
+    height: 600px;
+    padding-top: 5px;
+}
+/*Fin de estilos para la vista Principal*/
+
+/*Inicio de estilos para la vista Inicio de sesion*/
+.IniciarSesion-body{
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.capa{
+    background: rgba(79, 80, 84, 0.85);
+    height: 100%;
+}
+
+.IniciarSesion-container{
+    margin-left: 36%;
+}
+
+.div-white{
+    padding: 17px;
+    background: rgba(51, 51, 51, 0.72);
+    position: fixed;
+    width: 28%;
+    bottom: 23%;
+}
+
+.inicioSesion-contrasenia{
+    margin-top: 10px; 
+    border-radius: 0%;
+}
+
+.btn-login{
+	margin-top: 10px; 
+	width: 100%
+}
+
+.indicaciones{
+	color: #fff;
+	margin-top: 10px;
+}
+
+.logo{
+	height: 90px; 
+	margin: auto;
+	display: block;
+}
+
+.color-white{
+	color: #FFF
+}
+/*Inicio de estilos para la vista Inicio de sesion*/

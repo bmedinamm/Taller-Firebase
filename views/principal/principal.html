@@ -1,0 +1,282 @@
+<div style="padding: 10px;">
+	<div class="row">
+		<div class="col-md-3 col-sm-3">
+			<div class="btn-group  btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group btn-group-sm" role="group">
+					<button ng-click="abrirModalNuevoMensaje()" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Nuevo
+					</button>
+				</div>
+				<div class="btn-group btn-group-sm" role="group">
+					<button ng-click="abrirModalPerfil()" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Perfil
+					</button>
+				</div>
+				<div class="btn-group btn-group-sm" role="group">
+					<button ui-sref="inicioSesion" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-off" aria-hidden="true"></span> Cerrar ses...
+					</button>
+				</div>
+			</div>
+			<input class="form-control input-sm input-top-5" type="text" placeholder="Buscar...">
+			<div class="list-group">
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button ng-click="eliminarMensaje()" type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item mensaje-importante">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			  <a href="#" class="list-group-item">
+			    <div class="row">
+			    	<div class="col-md-2">
+			    		<img style="    height: 45px;" class="avatar" src="assets/img/avatar.png">
+			    	</div>
+			    	<div class="col-md-10">
+			    		<h5 class="list-group-item-heading">usuario</h5>
+     					<p class="list-group-item-text">Tarea de bases de datos II</p>
+     					<p class="txt-fecha">Hace 1 minuto</p>
+     					<div class="btn-group btn-group-xs" role="group" aria-label="Extra-small button group"> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar</button> 
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Archivar</button>
+	     					<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Marcar</button>
+     					</div>
+			    	</div>
+			    </div>
+			  </a>
+			</div>
+
+		</div>
+		<div class="col-md-9 col-sm-9 background-left">
+			<div class="row">
+				<div class="col-md-1">
+				 	<img style="height: 55px;" class="avatar" src="assets/img/avatar.png">
+				</div>
+				<div class="col-md-11">
+					<P class="top-10">BRAYAN JOSUE MEDINA MELENDEZ</P>
+					<p class="fecha">Hace 1 minuto</p>
+					<b class="correo">brayanmedina35.bmm@gmail.com</b>
+				</div>
+			</div>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</div>
+
+<!--Inicio de ventana modal para redactar un nuevo mensaje-->
+<div id="nuevoMensajeModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Nuevo mensaje</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+		  <input type="email" class="form-control input-sm" placeholder="Para">
+		  <input type="text" class="form-control input-sm input-top-5" placeholder="Asunto">
+		  <label for="comment">Mensaje:</label>
+  		  <textarea class="form-control" rows="5" id="comment"></textarea>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-default">Enviar</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--Fin de ventana modal para redactar un nuevo mensaje-->
+
+<!--Inicio de ventana modal para mi perfil-->
+<div id="perfilModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <!-- Modal content-->
+    <div class="modal-content modal-cont">
+      <div class="modal-body">
+	      <div class="row franja-oscura">
+	      	<div class="col-md-4">
+	      		<div id="perfil-usuario">
+		        	<img class="img-perfil-usuario" src="assets/img/avatar.png">
+		        </div>
+		        <div style="margin-top: -10px;" ng-show="editarPerfil" class="row">
+		        	<input type="file" name="file1" id="file1" class="inputfile" accept=".jpg,.png" />
+		        	<label ng-show="editarPerfil"  class="lblSubirImagen" for="file1">Cambiar</label>
+		        </div>
+	      	</div>
+	      	<div class="col-md-8">
+	      		<p class="p-nombre-usuario">{{usuario.nombre}}</p>
+	      		<p class="p-correo-usuario">{{usuario.correo}}</p>
+	      		<div class="row row-options" >
+	      			<a ng-click="editarInformacion()" class="label label-default btn-editar-inf"><span class="glyphicon glyphicon-pencil"></span> Editar infomación</a>
+	      		</div>
+	      	</div>
+	      </div>
+	      <form id="formCambiarCont" name="formCambiarCont"> 
+			<table class="table table-borderless table-striped table-information">
+	                <tbody>
+	                    <tr ng-show="!mostrarElementosEditarCont">
+	                        <td style="width: 20%;"><strong>Sobre mi</strong></td>
+	                        <td>
+	                        	<p ng-show="!editarPerfil">{{usuario.informacion}}</p>
+	                        	<textarea ng-model="usuario.informacion" ng-show="editarPerfil" id="profile-tweet" name="profile-tweet" class="form-control push-bit" rows="3" placeholder="Sobre mi.."></textarea>
+	                        </td>
+	                    </tr>
+	                    <tr ng-show="!mostrarElementosEditarCont">
+	                        <td><strong>Profesion</strong></td>
+	                        <td>
+	                        	<p ng-show="!editarPerfil">{{usuario.profesion}}</p>
+	                        	<input ng-model="usuario.profesion" ng-show="editarPerfil" type="text" id="example-text-input" name="example-text-input" class="form-control" placeholder="Profesion">
+	                        </td>
+	                    </tr>
+	                    <tr ng-show="!mostrarElementosEditarCont">
+	                        <td><strong>Telefono</strong></td>
+	                        <td>
+	                        	<p ng-show="!editarPerfil">{{usuario.telefono}}</p>
+	                        	<input ng-model="usuario.telefono" ng-show="editarPerfil" type="text" id="example-text-input" name="example-text-input" class="form-control" placeholder="00-00-00-00">
+	                        </td>
+	                    </tr>
+	                    <tr ng-show="!mostrarElementosEditarCont">
+	                        <td><strong>Sexo</strong></td>
+	                        <td>
+	                        	<p ng-show="!editarPerfil">{{usuario.sexo}}</p>
+	                        	<div ng-show="editarPerfil" class="row" style="margin-left: 0px;">
+	                        		<label class="radio-inline" for="example-inline-radio1">
+		                                <input ng-model="usuario.sexo" type="radio" id="example-inline-radio1" name="example-inline-radios" value="masculino"> Masculino
+		                            </label>
+									<label class="radio-inline" for="example-inline-radio2">
+		                                <input ng-model="usuario.sexo" type="radio" id="example-inline-radio2" name="example-inline-radios" value="femenino"> Femenino
+		                            </label>
+	                        	</div>
+	                        </td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	      </form>
+	   
+            <div ng-show="editarPerfil" class="row row-buttons">
+        		<button ng-click="cancelarCambios()" type="button" class="btn btn-default btn-sm" >Cancelar</button>
+        		<button ng-click="guardarCambios()" type="button" class="btn btn-default btn-sm" >Guardar</button>
+	        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Fin de ventana modal para mi perfil-->
